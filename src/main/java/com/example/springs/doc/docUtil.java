@@ -19,8 +19,8 @@ public class docUtil {
 
     public static void main(String[] args) throws Exception {
 
-    //    testWrite();
-        downzip();
+        testWrite();  //写数据
+        downzip();  //下载数据
     }
 
 
@@ -115,7 +115,7 @@ public class docUtil {
         }
     }*/
 
-
+        //
     public static  void downzip() throws Exception {
         byte[] buffer = new byte[1024];
         // 生成的ZIP文件名为Demo.zip
